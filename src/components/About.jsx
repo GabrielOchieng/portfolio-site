@@ -1,6 +1,7 @@
-import Image from "next/image";
-import Link from "next/link";
+// import Image from "next/image";
+// import Link from "next/link";
 import React from "react";
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
@@ -43,14 +44,14 @@ const About = () => {
                     rounded-xl flex items-center justify-center p-4 
                     hover:scale-105 ease-in duration-300"
         >
-          <Image
+          {/* <Image
             className="rounded-xl"
             src="/assets/aboutMe.jpg"
             width="700"
             height="800"
             style={{ objectFit: "cover" }}
             alt="/"
-          />
+          /> */}
         </div>
       </div>
     </div>

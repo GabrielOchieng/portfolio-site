@@ -1,10 +1,11 @@
-import Image from "next/image";
-import Link from "next/link";
+// import Image from "next/image";
+// import Link from "next/link";
 import React from "react";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonFill } from "react-icons/bs";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
+import { Link } from "react-router-dom";
 
 const Contact = () => {
   return (
@@ -20,16 +21,16 @@ const Contact = () => {
           <div className="col-span-6 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4">
             <div className="lg:p-4 h-full">
               <div>
-                <Image
+                {/* <Image
                   className="rounded-xl hover:scale-105 ease-in duration-300"
                   src="/assets/contact.jpg"
                   width="800"
                   height="1000"
                   alt="/"
-                />
+                /> */}
               </div>
               <div className="pt-8">
-                <h2 className="py-4">Geoffrey Paul</h2>
+                <h2 className="py-4">Gabriel Ochieng</h2>
                 <p>Front-End Developer</p>
                 <p className="py-4">
                   I&#39;m currently open to new opportunities, both freelancing

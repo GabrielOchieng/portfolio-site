@@ -1,9 +1,9 @@
 import React from "react";
-import sumzImg from "../public/assets/projects/sumz.png";
-import librayImg from "../public/assets/projects/library.png";
-import netflixImg from "../public/assets/projects/netflix.png";
-import notesImg from "../public/assets/projects/notes.png";
-import wordleImg from "../public/assets/projects/wordle.png";
+// import sumzImg from "../public/assets/projects/sumz.png";
+// import librayImg from "../public/assets/projects/library.png";
+// import netflixImg from "../public/assets/projects/netflix.png";
+// import notesImg from "../public/assets/projects/notes.png";
+// import wordleImg from "../public/assets/projects/wordle.png";
 
 import ProjectItem from "./ProjectItem";
 
@@ -18,31 +18,31 @@ const Projects = () => {
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
             title="Article Summarizer"
-            backgroundImg={sumzImg}
+            // backgroundImg={sumzImg}
             projectUrl="/summarizer"
             projectPara="React JS, Redux & TailwindCSS"
           />
           <ProjectItem
             title="Library Ecommerce App"
-            backgroundImg={librayImg}
+            // backgroundImg={librayImg}
             projectUrl="/library"
             projectPara="React JS, Axios, & CSS"
           />
           <ProjectItem
             title="Netflix Clone App"
-            backgroundImg={netflixImg}
+            // backgroundImg={netflixImg}
             projectUrl="/netflix"
             projectPara="Next JS, TypeScript, NextAuth, & MongoDB"
           />
           <ProjectItem
             title="Notes Taking App"
-            backgroundImg={notesImg}
+            // backgroundImg={notesImg}
             projectUrl="/notes"
             projectPara="React JS, TypeScript, & Bootstrap"
           />
           <ProjectItem
             title="Wordle Game"
-            backgroundImg={wordleImg}
+            // backgroundImg={wordleImg}
             projectUrl="/wordle"
             projectPara="JavaScript & CSS"
           />
